@@ -53,7 +53,7 @@ def total_gross(source)
   dir_total = directors_totals(source)
   count = 0
   
-  while count < directors_totals.length do
+  while count < dir_total.length do
     if names[count] == dir_total
       total += dir_total[:name]
       count += 1

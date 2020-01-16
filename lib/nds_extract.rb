@@ -54,8 +54,7 @@ def total_gross(source)
   count = 0
   
   while count < dir_total.length do
-    dir_total...
-    if
+    if names[count] 
       
     end
     count += 1

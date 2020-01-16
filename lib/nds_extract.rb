@@ -52,10 +52,10 @@ def total_gross(source)
   names = list_of_directors(source)
   count = 0
   
-#  while count < names.length do
-#    total += directors_totals(names[count])
-#    count += 1
-#  end
+  while count < names.length do
+    total += directors_totals(names[count])
+    count += 1
+  end
   
   total
 end

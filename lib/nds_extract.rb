@@ -48,6 +48,16 @@ def total_gross(source)
   # Visit each key (i.e. director name), look up the value in the hash
   # returned by directors_totals, and add it to a running total. When done,
   # return the total
+  total = 0
+  names = list_of_directors(source)
+  count = 0
+  
+  while count < names.length do
+    total += directors_totals(names[count])
+    count += 1
+  end
+  
+  total
 end
 
 
